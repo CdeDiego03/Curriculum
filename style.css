@@ -44,9 +44,9 @@ body {
 
 /* General container styles start */
 .container {
-    width: min(90%, 1440px);
     margin: 0 auto;
     overflow: hidden;
+    padding-bottom: 1rem;
 }
 
 /* General container styles end */
@@ -417,18 +417,29 @@ ul.nav__list {
 }
 
 .about-content h2  {
+    padding-bottom: 1rem;
+    margin: 0 auto;
     font-size: 7rem;
-    text-align: left;
+    text-align: center;
+    align-items: center;
+}
+
+.about-content h3 {
+    font-size: 4rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .about-content p{
     font-size: 1.8rem;
-    
+    text-align: center;
+    padding: 0 1rem;
 }
 
 .about-content .btn{
     font-size: 3rem;
     margin: 3rem 0;
+    margin-right: 2rem;
 }
 
 ::-webkit-scrollbar{
@@ -537,7 +548,6 @@ ul.nav__list {
     text-align: center;
     font-size: 7rem;
     margin: 5rem 0;
-    margin-left: -14rem;
 }
 
 .services{
@@ -554,6 +564,8 @@ ul.nav__list {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 2rem;
+    width: 90%;
+    margin: auto;
 }
 
 .services-box{
